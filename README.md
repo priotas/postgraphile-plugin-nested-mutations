@@ -7,6 +7,16 @@ key relationships in PostGraphile v4.  Nested mutations can be of infinite depth
 
 ## Getting Started
 
+### Installation
+
+```bash
+# YARN
+yarn add postgraphile-plugin-nested-mutations
+
+# NPM
+npm install --save postgraphile-plugin-nested-mutations
+```
+
 ### CLI
 
 ``` bash
