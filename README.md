@@ -1,16 +1,20 @@
-[![Package on npm](https://img.shields.io/npm/v/postgraphile-plugin-nested-mutations.svg)](https://www.npmjs.com/package/postgraphile-plugin-nested-mutations)
-[![CircleCI](https://circleci.com/gh/mlipscombe/postgraphile-plugin-nested-mutations/tree/master.svg?style=svg)](https://circleci.com/gh/mlipscombe/postgraphile-plugin-nested-mutations/tree/master)
+# @priotas/postgraphile-plugin-nested-mutations
 
-# postgraphile-plugin-nested-mutations
 This plugin implements nested mutations based on both forward and reverse foreign
-key relationships in PostGraphile v4.  Nested mutations can be of infinite depth.
+key relationships in PostGraphile v4. Nested mutations can be of infinite depth.
+
+## Installation
+
+```bash
+yarn add @priotas/postgraphile-plugin-nested-mutations
+```
 
 ## Getting Started
 
 ### CLI
 
 ``` bash
-postgraphile --append-plugins postgraphile-plugin-nested-mutations
+postgraphile --append-plugins @priotas/postgraphile-plugin-nested-mutations
 ```
 
 See [here](https://www.graphile.org/postgraphile/extending/#loading-additional-plugins) for
@@ -21,7 +25,7 @@ more information about loading plugins with PostGraphile.
 ``` js
 const express = require('express');
 const { postgraphile } = require('postgraphile');
-const PostGraphileNestedMutations = require('postgraphile-plugin-nested-mutations');
+const PostGraphileNestedMutations = require('@priotas/postgraphile-plugin-nested-mutations');
 
 const app = express();
 
