@@ -1,7 +1,11 @@
+[![Build Status](https://travis-ci.com/priotas/postgraphile-plugin-nested-mutations.svg?branch=priotas)](https://travis-ci.com/priotas/postgraphile-plugin-nested-mutations)
+
 # @priotas/postgraphile-plugin-nested-mutations
 
 This plugin implements nested mutations based on both forward and reverse foreign
 key relationships in PostGraphile v4. Nested mutations can be of infinite depth.
+
+Forked from https://github.com/mlipscombe/postgraphile-plugin-nested-mutations
 
 ## Installation
 
